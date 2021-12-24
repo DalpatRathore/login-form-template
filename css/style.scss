@@ -17,13 +17,14 @@ body {
   background: #f6f5f7;
   @include flexCenter();
   flex-direction: column;
-
   height: 100vh;
   margin: -20px 0 50px;
 }
 
 h1 {
   font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+  letter-spacing: 1px;
 }
 
 p {
@@ -58,18 +59,25 @@ a {
   height: 100%;
   transition: all 0.6s ease-in-out;
   & form {
-    background: #fff;
+    background: #ddd;
     @include flexCenter();
     flex-direction: column;
     padding: 0 50px;
     height: 100%;
     text-align: center;
+    & h1 {
+      color: #ddd;
+    }
     & input {
       background: #eee;
       border: none;
       padding: 12px 15px;
       margin: 8px 0;
       width: 100%;
+      border-radius: 25px;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      box-shadow: 0 0 2px #000;
     }
   }
 }
@@ -88,30 +96,41 @@ a {
 
 .btn {
   border-radius: 20px;
-  border: 1px solid#ff4b2b;
-  background: #ff4b2b;
+  // border: 1px solid#ff4b2b;
+  // background: #ff4b2b;
+  border: none;
+  background: rgb(3, 7, 30);
+  background: linear-gradient(
+    45deg,
+    rgba(3, 7, 30, 1) 0%,
+    rgba(247, 127, 0, 1) 100%
+  );
   color: #fff;
   font-size: 12px;
   font-weight: bold;
   padding: 12px 45px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  outline: none;
-  transition: transform 80ms ease-in;
+  box-shadow: 0px 0px 5px #000;
+  // outline: none;
+  cursor: pointer;
+  transition: transform 100ms ease-in;
   &:active {
+    box-shadow: 0 0 2px #000;
     transform: scale(0.95);
   }
 }
 
 .ghost {
   background: transparent;
-  border-color: #fff;
+  // border-color: #fff;
+  // border: 1px solid #fdfdfd;
+  box-shadow: 1px 1px 3px #000;
 }
 
 .sm_container {
   margin: 20px 0;
   & a {
-    border: 1px solid #ddd;
     border-radius: 50%;
     display: inline-flex;
     justify-content: center;
@@ -119,6 +138,7 @@ a {
     margin: 0 5px;
     height: 40px;
     width: 40px;
+    box-shadow: 0 0 3px #000;
   }
 }
 
@@ -134,8 +154,15 @@ a {
 }
 
 .overlay {
-  background: #ff416c;
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  // background: #ff416c;
+  // background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background: rgb(3, 7, 30);
+  background: linear-gradient(
+    45deg,
+    rgba(3, 7, 30, 1) 0%,
+    rgba(247, 127, 0, 1) 50%,
+    rgba(3, 7, 30, 1) 100%
+  );
   color: #fff;
   position: relative;
   left: -100%;
