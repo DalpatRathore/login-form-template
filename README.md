@@ -13,11 +13,11 @@
 </tr>
 
 <tr>
-  <td><img src="https://github.com/DalpatRathore/login-form-template/blob/main/images/form-1.jpg" alt="form screenshot"/></td>
-  <td><img src="https://github.com/DalpatRathore/login-form-template/blob/main/images/form-1a.jpg" alt="form screenshot"/></td>
+  <td><img src="https://github.com/DalpatRathore/login-form-template/blob/main/images/screenshot-1.jpg" alt="form screenshot"/></td>
+  <td><img src="https://github.com/DalpatRathore/login-form-template/blob/main/images/screenshot-1a.jpg" alt="form screenshot"/></td>
 </tr>
 <tr>
-  <td><img src="https://github.com/DalpatRathore/login-form-template/blob/main/images/form-2.jpg" alt="form screenshot"/></td>
-  <td><img src="https://github.com/DalpatRathore/login-form-template/blob/main/images/form-2a.jpg" alt="form screenshot"/></td>
+  <td><img src="https://github.com/DalpatRathore/login-form-template/blob/main/images/screenshot-2.jpg" alt="form screenshot"/></td>
+  <td><img src="https://github.com/DalpatRathore/login-form-template/blob/main/images/screenshot-2a.jpg" alt="form screenshot"/></td>
 </tr>
 </table>
