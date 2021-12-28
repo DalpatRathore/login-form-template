@@ -128,8 +128,8 @@ a {
   padding: 12px 45px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  -webkit-box-shadow: 0px 0px 5px #000;
-          box-shadow: 0px 0px 5px #000;
+  -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000;
   cursor: pointer;
   -webkit-transition: -webkit-transform 100ms ease-in;
   transition: -webkit-transform 100ms ease-in;
